@@ -44,6 +44,24 @@ ThOpComp-mcp es una herramienta que permite cargar, analizar y visualizar modelo
 ### Visualización
 - **`highlight`**: Resalta elementos específicos en el visualizador
 
+## ⚠️ Nota Importante sobre Precisión
+
+**Las mediciones y resultados proporcionados por esta herramienta pueden no ser exactos.** 
+
+Los valores de volumen, área, longitud y otras mediciones extraídas de los modelos BIM dependen de:
+- La calidad y completitud de los datos en el archivo IFC original
+- La precisión de la geometría del modelo
+- La implementación de las librerías de procesamiento BIM utilizadas
+- Las propiedades y Property Sets definidos en el modelo
+
+Se recomienda **verificar y validar** los resultados obtenidos, especialmente para:
+- Cálculos de cantidades de obra
+- Estimaciones de costos
+- Análisis estructurales
+- Cualquier uso que requiera precisión absoluta
+
+Esta herramienta está diseñada como una **ayuda para análisis y exploración** de modelos BIM, no como un sistema de medición certificado.
+
 ## 🏗️ Estructura del Proyecto
 
 ```
